@@ -1,6 +1,12 @@
-# Proyek Analisis Sentimen 🌟
+# Analisis Sentimen Ulasan Pengunjung Universal Studio 🎡
 
-Selamat datang di proyek **Analisis Sentimen Ulasan Universal Studios**! 🎢🎡 Repositori ini menerapkan model deep learning canggih untuk mengklasifikasikan ulasan pengunjung ke dalam sentimen: Positif, Netral, atau Negatif.
+---
+
+## Overview Project 🌟
+
+Selamat datang di proyek **Analisis Sentimen Ulasan Universal Studios**! 🎢 Repositori ini menerapkan model deep learning untuk mengklasifikasikan ulasan pengunjung ke dalam sentimen: Positif, Netral, atau Negatif.
+
+Dengan memahami sentimen yang terkandung dalam ulasan, proyek ini diharapkan dapat memberikan wawasan yang lebih baik bagi pengalaman pengunjung serta membantu dalam meningkatkan pelayanan.
 
 ---
 
