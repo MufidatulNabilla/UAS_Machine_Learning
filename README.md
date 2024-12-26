@@ -148,5 +148,5 @@ Setelah model dievaluasi, proyek dapat diakses melalui aplikasi web interaktif y
 ---
 
 ## 👨‍💻 Author 
-[Mufidatul Nabilla Khasanah](https://github.com/MufidatulNabilla/).
+[Mufidatul Nabilla Khasanah](https://github.com/MufidatulNabilla)
 
