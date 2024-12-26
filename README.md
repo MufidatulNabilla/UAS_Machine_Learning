@@ -47,10 +47,8 @@ Dengan memahami sentimen yang terkandung dalam ulasan, proyek ini diharapkan dap
   - Lapisan Dense.
 - **Pelatihan**:
   - Ukuran batch: 64, Epoch: 30. Berdasarkan panjang urutan dan ukuran batch.
-- **Kinerja**:
-  - Classification Report 🔍
-  - Confusion Matrix 📋
-  - Grafik Visualisai 📊
+- **Evaluasi Kinerja**:
+  - Classification Report 🔍, Confusion Matrix 📋, Grafik Visualisai 📊
   
 #### B. Model BERT
 - **Proses**:
@@ -59,10 +57,8 @@ Dengan memahami sentimen yang terkandung dalam ulasan, proyek ini diharapkan dap
   - Fine-tuning `TFBertForSequenceClassification` yang sudah dilatih sebelumnya.
 - **Pelatihan**:
   - Ukuran batch: 64, Epoch: 10. Menggunakan `AdamWeightDecay`.
-- **Evaluasi**: 
-  - Classification Report 🔍
-  - Confusion Matrix 📋
-  - Grafik Visualisai 📊
+- **Evaluasi Kinerja**: 
+  - Classification Report 🔍, Confusion Matrix 📋, Grafik Visualisai 📊
 
 ---
 
@@ -112,8 +108,17 @@ Dengan memahami sentimen yang terkandung dalam ulasan, proyek ini diharapkan dap
 ---
 
 ## 🚀 Hasil
-- **Model LSTM**: Menunjukkan kinerja yang tangguh dengan data sekuensial.
-- **Model BERT**: Mencapai akurasi dan presisi yang unggul melalui pemahaman kontekstual.
+   - **Model LSTM**: Model ini menunjukkan kemampuan yang baik dalam memahami data ulasan dengan **akurasi pengujian sebesar 75.8%**.  
+     Namun, terdapat variasi performa untuk setiap kelas:
+     - **Positif**: Precision 85%, Recall 90%, F1-score 87% (kinerja terbaik).  
+     - **Negatif dan Netral**: Memiliki precision dan recall yang lebih rendah, menunjukkan bahwa model sedikit kesulitan dalam membedakan sentimen-sentimen ini.
+   
+   - **Model BERT**: Dengan pendekatan berbasis transformer, BERT mencapai **akurasi pengujian sebesar 81.0%**, yang lebih tinggi dibandingkan LSTM.  
+     Performanya lebih baik terutama dalam kelas **Positif**:
+     - **Positif**: Precision 87%, Recall 95%, F1-score 91% (unggul dalam memahami sentimen positif).  
+     - **Negatif dan Netral**: Precision dan recall lebih rendah, tetapi tetap lebih baik dibandingkan LSTM.
+   
+   Secara keseluruhan, **BERT memberikan kinerja yang lebih konsisten dan akurat** dalam memahami konteks ulasan dibandingkan LSTM.
 
 ---
 
