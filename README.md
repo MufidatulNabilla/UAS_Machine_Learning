@@ -141,12 +141,12 @@ Setelah model dievaluasi, proyek dapat diakses melalui aplikasi web interaktif y
 
 ### Tampilan Web Deploy 💻
    <p align="center">
-     <img src="https://github.com/user-attachments/assets/f5e47eed-4844-479e-858a-bb604f7b81b3" width="45%" />
-     <img src="https://github.com/user-attachments/assets/c4351d78-e434-4598-963d-211da3bb42c4" width="45%" />
+     <img src="https://github.com/user-attachments/assets/1b664453-1a68-485b-8471-995681990d26" width="45%" />
+     <img src="https://github.com/user-attachments/assets/c3d7af21-ea3f-4af7-b659-1ae59974baf6" width="45%" />
    </p>
 
 ---
 
-## 📧 Kontak
-Untuk pertanyaan, hubungi [your-email@example.com].
+## 👨‍💻 Author 
+[Mufidatul Nabilla Khasanah](https://github.com/MufidatulNabilla/).
 
