@@ -1,20 +1,20 @@
-# Analisis Sentimen Ulasan Pengunjung Universal Studio 🎡
+# Analisis Sentimen Ulasan Pengunjung Universal Studio 
 
 ---
 
-## Overview Project 🌟
+## Project Analisis Sentimen🌟
 
-Selamat datang di proyek **Analisis Sentimen Ulasan Universal Studios**! 🎢 Repositori ini menerapkan model deep learning untuk mengklasifikasikan ulasan pengunjung ke dalam sentimen: Positif, Netral, atau Negatif.
+Selamat datang di proyek **Analisis Sentimen Ulasan Universal Studios**! 🎢🎡 Repositori ini menerapkan model deep learning untuk mengklasifikasikan ulasan pengunjung ke dalam sentimen: Positif, Netral, atau Negatif.
 
 Dengan memahami sentimen yang terkandung dalam ulasan, proyek ini diharapkan dapat memberikan wawasan yang lebih baik bagi pengalaman pengunjung serta membantu dalam meningkatkan pelayanan.
 
 ---
 
-## ✨ Sorotan Proyek
+## ✨ Overview Project
 1. **Dataset**: Ulasan pengunjung dari Universal Studios 🏙️, tersedia di Kaggle [di sini](https://www.kaggle.com/datasets/dwiknrd/reviewuniversalstudio).
 2. **Model yang Digunakan**:
    - **LSTM** (Long Short-Term Memory): Memahami pola berurutan dalam data teks atau angka.
-   - **BERT** (Bidirectional Encoder Representations from Transformers): Memanfaatkan embedding kontekstual untuk klasifikasi teks yang mutakhir.
+   - **BERT** (Bidirectional Encoder Representations from Transformers): Memanfaatkan embedding kontekstual untuk klasifikasi teks yang akurat dan canggih.
 3. **Tujuan**:
    - Melakukan analisis sentimen.
    - Membandingkan kinerja model.
@@ -43,34 +43,41 @@ Dengan memahami sentimen yang terkandung dalam ulasan, proyek ini diharapkan dap
 - **Arsitektur**:
   - Tokenisasi dan padding.
   - Lapisan Embedding.
-  - Lapisan LSTM Bidirectional.
-  - Lapisan Dense yang Terhubung Penuh.
+  - Lapisan LSTM.
+  - Lapisan Dense.
 - **Pelatihan**:
-  - Ukuran batch: 32, Epoch: 15.
-  - Dioptimalkan untuk panjang urutan dan ukuran batch.
+  - Ukuran batch: 32, Epoch: 15. Berdasarkan panjang urutan dan ukuran batch.
 - **Kinerja**:
-  - Metrik: Akurasi, Presisi, Recall.
-
+  - Classification Report 🔍
+  - Confusion Matrix 📋
+  - Grafik Visualisai 📊
+  
 #### B. Model BERT
 - **Proses**:
   - Tokenisasi teks menggunakan `BertTokenizer`.
   - Encoding label menggunakan `LabelEncoder`.
   - Fine-tuning `TFBertForSequenceClassification` yang sudah dilatih sebelumnya.
 - **Pelatihan**:
-  - Ukuran batch: 64, Epoch: 10.
-  - Dioptimalkan dengan `AdamWeightDecay`.
-- **Evaluasi**:
-  - Confusion Matrix 📊
-  - Laporan Klasifikasi 📋
+  - Ukuran batch: 64, Epoch: 10. Menggunakan `AdamWeightDecay`.
+- **Evaluasi**: 
+  - Classification Report 🔍
+  - Confusion Matrix 📋
+  - Grafik Visualisai 📊
 
 ---
 
-## 🔍 Visualisasi
-- **Perkembangan Pelatihan**:
-  - Tren Akurasi dan Loss per epoch untuk kedua model.
-- **Confusion Matrix**:
-  - Ditampilkan dengan heatmap untuk evaluasi yang jelas.
-
+## 📝Hasil Evaluasi dan Visualisasi
+- **1️⃣ Laporan Klasifikasi dan Confusion Matrix**:
+  - **LSTM**:
+     - Classification Report 🔍
+     - Confusion Matrix 📋
+  - **BERT**:
+     - Classification Report 🔍
+     - Confusion Matrix 📋 
+- **2️⃣ Visualisasi Hasil Pelatihan**:
+  - Grafik Visualisai 📊 **LSTM**:     
+  - Grafik Visualisai 📊 **BERT**:
+     
 ---
 
 ## 🛠️ Persiapan dan Instalasi
