@@ -46,7 +46,7 @@ Dengan memahami sentimen yang terkandung dalam ulasan, proyek ini diharapkan dap
   - Lapisan LSTM.
   - Lapisan Dense.
 - **Pelatihan**:
-  - Ukuran batch: 32, Epoch: 15. Berdasarkan panjang urutan dan ukuran batch.
+  - Ukuran batch: 64, Epoch: 30. Berdasarkan panjang urutan dan ukuran batch.
 - **Kinerja**:
   - Classification Report 🔍
   - Confusion Matrix 📋
@@ -69,29 +69,44 @@ Dengan memahami sentimen yang terkandung dalam ulasan, proyek ini diharapkan dap
 ## 📝Hasil Evaluasi dan Visualisasi
 - **1️⃣ Laporan Klasifikasi dan Confusion Matrix**:
   - **LSTM**:
-     - Classification Report 🔍
-     - Confusion Matrix 📋
-  - **BERT**:
-     - Classification Report 🔍
-     - Confusion Matrix 📋 
+     - **Classification Report** 🔍  
+       ![Classification Report LSTM](https://github.com/user-attachments/assets/f248a2a5-6d0b-4e83-bc78-92ec38451c37)
+   
+     - **Confusion Matrix** 📋  
+       ![Confusion Matrix LSTM](https://github.com/user-attachments/assets/aacbda73-1b2d-4a4d-97bc-72cf08e5c564)
+       
+   - **BERT**:
+     - **Classification Report** 🔍  
+       ![Classification Report BERT](https://github.com/user-attachments/assets/395a6da2-ebce-442c-a586-0440c29a6ce0)
+   
+     - **Confusion Matrix** 📋  
+       ![Confusion Matrix BERT](https://github.com/user-attachments/assets/e58733f7-6643-4e58-a337-30542953c355)
+  
 - **2️⃣ Visualisasi Hasil Pelatihan**:
-  - Grafik Visualisai 📊 **LSTM**:     
-  - Grafik Visualisai 📊 **BERT**:
-     
+  - Grafik Visualisai 📊 **LSTM**:
+    ![Grafik Visualisasi LSTM](https://github.com/user-attachments/assets/7116736c-4747-4e94-9864-421032c97006)
+ 
+  - **Grafik Visualisasi** 📊 **BERT**:  
+     - **Akurasi**  
+       ![Grafik Visualisasi BERT Akurasi](https://github.com/user-attachments/assets/f5e47eed-4844-479e-858a-bb604f7b81b3)
+   
+     - **Loss**  
+       ![Grafik Visualisasi BERT Loss](https://github.com/user-attachments/assets/c4351d78-e434-4598-963d-211da3bb42c4)
+ 
 ---
 
 ## 🛠️ Persiapan dan Instalasi
-1. Clone repositori:
-   ```bash
-   git clone <repository-url>
-   ```
-2. Instal pustaka yang diperlukan:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Muat dataset dari Kaggle:
+1. Unduh dataset dari Kaggle:
    ```bash
    kaggle datasets download -d dwiknrd/reviewuniversalstudio
+   ```
+2. Ekstrak dataset yang diunduh:
+   ```bash
+   unzip reviewuniversalstudio.zip
+   ```
+3. Instal pustaka yang diperlukan:
+   ```bash
+   pip install -r requirements.txt
    ```
 
 ---
