@@ -122,8 +122,28 @@ Dengan memahami sentimen yang terkandung dalam ulasan, proyek ini diharapkan dap
 
 ---
 
-## 🙌 Kontribusi
-Silakan ajukan isu atau berkontribusi dengan mengirimkan pull request! Mari kita tingkatkan analisis sentimen bersama. 🌟
+## 🌐 Deploy ke Website dengan Streamlit
+Setelah model dievaluasi, proyek dapat diakses melalui aplikasi web interaktif yang dibangun menggunakan **Streamlit**. Aplikasi ini memungkinkan pengguna untuk menginput ulasan dan melihat prediksi sentimen secara langsung.
+
+### Langkah-langkah untuk Menjalankan Aplikasi Streamlit 🙌
+1. Install Streamlit:
+   ```bash
+   pip install streamlit
+   ```
+2. Menjalankan Aplikasi:
+   ```bash
+   streamlit run app.py
+   ```
+### 🌟Struktur Aplikasi Streamlit
+   - app.py: Script utama untuk menjalankan aplikasi, yang memuat model dan menyediakan antarmuka pengguna.
+   - lstm_model.h5: Model yang telah dilatih, disimpan dalam format h5 untuk digunakan dalam aplikasi.
+   - tokenizer.joblib: Komponen dalam pemrosesan teks yang telah dilatih. disimpan dalam format joblib untuk digunakan dalam aplikasi.
+
+### Tampilan Web Deploy 💻
+   <p align="center">
+     <img src="https://github.com/user-attachments/assets/f5e47eed-4844-479e-858a-bb604f7b81b3" width="45%" />
+     <img src="https://github.com/user-attachments/assets/c4351d78-e434-4598-963d-211da3bb42c4" width="45%" />
+   </p>
 
 ---
 
